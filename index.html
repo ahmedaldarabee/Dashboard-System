@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard | ahmed nayel</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/styling.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+    
+    <!-- sidebar section -->
+    <div id="sidebar" class="sidebar">
+
+        <a href="index.html" class="brand flex-center"><i class="adminIcon fa-solid fa-user-tie icon"></i>admin page</a>
+
+        <ul class="side-menu">
+            <li> <a href="index.html" class="active"> <i class="fa-brands fa-centos icon"></i> dashboard </a></li>
+            <li class="divider" data-text="main">main</li>
+
+            <li>
+                <a href="index.html"> <i class="fa-solid fa-box icon"></i> element  <i class="fa-solid fa-arrow-right go-right-icon"></i></a>
+
+                <ul class="side-dropdown">
+                    <li> <a href="index.html"> alert </a> </li>
+                    <li> <a href="index.html"> badges </a> </li>
+                    <li> <a href="index.html"> breadcrumbs </a> </li>
+                    <li> <a href="index.html"> button </a> </li>
+                </ul>
+            </li>
+
+            <li><a href="index.html"><i class="fa-solid fa-chart-pie icon"></i> chart</a></li>
+            <li><a href="index.html"><i class="fa-brands fa-buromobelexperte icon"></i> widgets</a></li>
+            
+            <li class="divider" data-text="table and form">table and form</li>
+            <li> <a href="index.html"> <i class="fa-solid fa-table-cells icon"></i> table </a></li>
+
+            <li>
+                <a href="index.html"> <i class="fa-solid fa-note-sticky icon"></i> form <i class="fa-solid fa-arrow-right go-right-icon"></i> </a>
+
+                <ul class="side-dropdown">
+                    <li> <a href="index.html"> basic    </a> </li>
+                    <li> <a href="index.html"> select   </a> </li>
+                    <li> <a href="index.html"> checkbox </a> </li>
+                    <li> <a href="index.html"> radio    </a> </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="ads">
+            <div class="wrapper">
+                <a href="index.html" class="btn-upgrade flex-center"> upgrade </a>
+                <p>become a <span>PRO</span> member and enjoy <span>All Features</span>!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content" id="content-section">
+
+        <!-- header content -->
+        <nav class="flex-center">
+            <i class="fa-solid fa-list-ul toggle-sidebar"></i>
+
+            <form action="index.html">
+                <div class="form-group">
+                    <input type="search" placeholder="search here">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                </div>
+            </form>
+
+            <a href="index.html" class="nav-link">
+                <i class="fa-solid fa-bell icon"></i>
+                <span class="badge">8</span>
+            </a>
+
+            <a href="index.html" class="nav-link">
+                <i class="fa-solid fa-envelope icon"></i>
+                <span class="badge">5</span>
+            </a>
+
+            <div class="divider"></div>
+
+            <div class="profile-info">
+                <img src="images/user.png" alt="image of user">
+                <ul class="profile-links">
+                    <li> <a href="index.html"> <i class="fa-solid fa-user-tag icon"></i> profile </a> </li>
+                    <li> <a href="index.html"> <i class="fa-solid fa-gears"></i> settings </a> </li>
+                    <li> <a href="index.html"> <i class="fa-solid fa-arrow-right-from-bracket"></i> logout </a> </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- page content -->
+        <main>
+            <div class="head-of-content">
+                <h1 class="title">dashboard</h1>
+                <ul class="breadcrumb">
+                    <li> <a href="index.html"> home </a> </li>
+                    <li class="divider"> / </li>
+                    <li> <a href="index.html" class="active"> dashboard </a> </li>
+                </ul>
+            </div>
+
+            <div class="data-info">
+                <div class="card">
+                    <div class="head-of-card flex-between">
+                        <div>
+                            <h3>1500</h3>
+                            <p>traffic</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-trend-up icon"></i>
+                    </div>
+                    <div class="content-of-card">
+                        <span class="progress" data-value="50%"></span>
+                        <span class="label">50%</span>
+                    </div>
+                
+                </div>
+                <div class="card">
+                    <div class="head-of-card flex-between">
+                        <div>
+                            <h3>234</h3>
+                            <p>sales</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-trend-down down-icon icon"></i>
+                    </div>
+                    <div class="content-of-card">
+                        <span class="progress" data-value="60%"></span>
+                        <span class="label">60%</span>
+                    </div>
+                
+                </div>
+                <div class="card">
+                    <div class="head-of-card flex-between">
+                        <div>
+                            <h3>456</h3>
+                            <p>page views</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-trend-up icon"></i>
+                    </div>
+                    <div class="content-of-card">
+                        <span class="progress" data-value="30%"></span>
+                        <span class="label">30%</span>
+                    </div>
+                
+                </div>
+                <div class="card">
+                    <div class="head-of-card flex-between">
+                        <div>
+                            <h3>253</h3>
+                            <p>visitor</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-trend-up icon"></i>
+                    </div>
+                    <div class="content-of-card">
+                        <span class="progress" data-value="80%"></span>
+                        <span class="label">80%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-data">
+                
+                <div class="content-data">
+                    
+                    <div class="heading-part flex-between">
+                        <h3>sales  report</h3>
+                        <div class="menu flex-center">
+                            <i class="fa-solid fa-grip-vertical icon"></i> 
+                            <ul class="menu-links">
+                                <li> <a href="index.html"> edit </a> </li>
+                                <li> <a href="index.html"> save </a> </li>
+                                <li> <a href="index.html"> remove </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="chart-section">
+                        <div id="chart"></div>
+                    </div>
+
+                </div>
+
+                <div class="content-data">
+                    <div class="heading-part flex-between">
+                        <h3>chat box</h3>
+                        <div class="menu flex-center">
+                            <i class="fa-solid fa-grip-vertical icon"></i>
+                            <ul class="menu-links">
+                                <li> <a href="index.html"> edit </a> </li>
+                                <li> <a href="index.html"> save </a> </li>
+                                <li> <a href="index.html"> remove </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- content -->
+                    <div class="chat-box">
+
+                        <div class="day">
+                            <span>today</span>
+                        </div>
+
+                        <div class="message">
+                            <img src="images/user.png" alt="user image">
+                            
+                            <div class="chat">
+                                <div class="profile">
+                                    <span class="username">ahmed nayel</span>
+                                    <span class="time">2:40 pm</span>
+                                </div>
+
+                                <div class="message-content">
+                                    <p>hello</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="message me">
+                            <div class="chat">
+                                    <div class="profile">
+                                        <span class="time">2:40 pm</span>
+                                    </div>
+                                    <div class="message-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minus nam doloribus sint optio, modi accusamus similique ipsum eligendi. Magni.</p>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="message me">
+                            <div class="chat">
+                                    <div class="profile">
+                                        <span class="time">2:40 pm</span>
+                                    </div>
+                                    <div class="message-content">
+                                        <p>that's right!</p>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="message me">
+                            <div class="chat">
+                                    <div class="profile">
+                                        <span class="time">2:40 pm</span>
+                                    </div>
+                                    <div class="message-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, placeat.</p>
+                                    </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    
+                    <div class="messages-form">
+                        <form action="index.html">
+                            <div class="form-group">
+                                <input type="text" placeholder="your message">
+                                <i class="fa-solid fa-arrow-right icon"></i>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>                    
+            </div>
+        </main>
+    </div>
+
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/apxChart.js"></script>
+    <script src="js/main.js" ></script>
+</html>
